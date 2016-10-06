@@ -5,7 +5,7 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/tabletop1.3.4.js"></script>
     <script type="text/javascript" src="js/sheetsee.js"></script>
-    <link   type='text/css' rel='stylesheet' href='http://api.tiles.mapbox.com/mapbox.js/v1.0.0/mapbox.css'>
+    <link   type='text/css' rel='stylesheet' href='https://api.tiles.mapbox.com/mapbox.js/v1.0.0/mapbox.css'>
     <!-- Add a Title -->
     <title>Map</title>
   </head>
@@ -25,7 +25,8 @@
     <script type="text/javascript">
       document.addEventListener('DOMContentLoaded', function() {
         // see how what the example spreadsheet looks like:
-        // https://docs.google.com/spreadsheet/lv?key=0Ao5u1U6KYND7dGN5QngweVJUWE16bTRob0d2a3dCbnc
+ 
+        //https://docs.google.com/spreadsheets/d/1LzeNXJw3wwkEEjzyfYjgjy_4uCg8Y9zMvJIRC3Hs36M/edit?usp=sharing
         var URL = "1LzeNXJw3wwkEEjzyfYjgjy_4uCg8Y9zMvJIRC3Hs36M"
         Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
       })
